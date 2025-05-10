@@ -27,23 +27,19 @@ const allcatefilter = () => {
 }
 //shop search filter
 const searchlength = (search || []).length === 0
-const seasrchproduct = () => {
-  if(searchlength)
-{
-  alert("Please Search Something")
-  setShop(Homeproduct)
-}
-else{
-   
-    const searchfilter = Homeproduct.filter((x) => 
-      {
-      return x.cat === search
-    })
-    setShop(searchfilter)
-  
-  
-  
-}}
+
+
+const searchproduct = () => {
+  if (searchlength) {
+    alert("Please Search Something");
+    setShop(Homeproduct);
+  } else {
+    const searchfilter = Homeproduct.filter((x) => {
+      return x.cat === search;
+    });
+    setShop(searchfilter);
+  }
+};
 
 //add to cart
 
