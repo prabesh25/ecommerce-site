@@ -31,7 +31,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search..."
+              placeholder="Feel Free To Brouse & "
             />
             <button onClick={searchproduct} className="w-[50px] h-[39px] border-[#cd1e76] border rounded-r-full bg-[#cd1e76] flex justify-center items-center">
               <AiOutlineSearch className="text-white text-[20px]" />
