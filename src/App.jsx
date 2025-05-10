@@ -6,6 +6,7 @@ import Nav from './comp/nav'
 import Footer from './comp/footer'
 import Rout from './comp/rout'
 import Homeproduct from './comp/home_product'
+import Chatbot from './comp/Chatbot'
 
 
 function App() {
@@ -66,6 +67,7 @@ alert("added to cart")
     <Nav  search={search} setSearch={setSearch}  seasrchproduct={seasrchproduct}/>
     <Rout setCart={setCart} cart={cart}  shop={shop} Filter={Filter} allcatefilter={allcatefilter} addtocart={addtocart}/>
     <Footer />
+    <Chatbot />
     </BrowserRouter>
       
     </>
