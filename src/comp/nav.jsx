@@ -25,7 +25,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
             <p className="ml-2 text-white">Alternatives</p>
           </div>
 
-{/*           <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center">
             <input
               className="outline-none bg-[#f6f7f8] w-[250px] border border-[#8a8a8a] rounded-l-full py-2 px-4 text-[14px]"
               type="text"
@@ -36,7 +36,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
             <button onClick={searchproduct} className="w-[50px] h-[39px] border-[#cd1e76] border rounded-r-full bg-[#cd1e76] flex justify-center items-center">
               <AiOutlineSearch className="text-white text-[20px]" />
             </button>
-          </div> */}
+          </div>
 
           <div className="hidden md:flex items-center">
             {isAuthenticated ? (
