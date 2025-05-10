@@ -64,7 +64,7 @@ alert("added to cart")
   return (
     <>
     <BrowserRouter>
-      <Nav search={search} setSearch={setSearch} searchproduct={seasrchproduct} />
+      <Nav search={search} setSearch={setSearch} searchproduct={searchproduct} />
     <Rout setCart={setCart} cart={cart}  shop={shop} Filter={Filter} allcatefilter={allcatefilter} addtocart={addtocart}/>
     <Footer />
     <Chatbot />
