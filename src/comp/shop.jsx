@@ -376,7 +376,7 @@ const Shop = ({ shop, Filter, allcatefilter, addtocart }) => {
             <div className="mt-8 hidden lg:block">
               <div className="overflow-hidden rounded-xl shadow-lg">
                 <img
-                  src="image/bannerr2.webp" // Add your banner image path
+                  src="image/bannerr2.webp" 
                   alt="Promotion"
                   className="h-64 w-full object-cover"
                 />
@@ -389,7 +389,7 @@ const Shop = ({ shop, Filter, allcatefilter, addtocart }) => {
             <div className="mb-8 hidden lg:block">
               <div className="overflow-hidden rounded-xl shadow-lg">
                 <img
-                  src="image/banner1.webp" // Add your banner image path
+                  src="image/banner1.webp" 
                   alt="Main Banner"
                   className="h-48 w-full object-cover"
                 />
