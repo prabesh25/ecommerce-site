@@ -112,7 +112,6 @@ const Nav = ({ search, setSearch, searchproduct }) => {
           </div>
         )}
 
-        {/* This is the desktop navbar with the links showing always on PC */}
         <div className="hidden md:flex last_header w-full py-2 px-10 bg-[#232323] justify-between items-center">
           <div className="user_Profile flex items-center">
             {isAuthenticated ? (
@@ -150,7 +149,6 @@ const Nav = ({ search, setSearch, searchproduct }) => {
           </div>
         </div>
 
-        {/* Desktop Links Visible */}
         
       </div>
     </>
